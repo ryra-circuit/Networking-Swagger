@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="JMZ-tK-5Xh">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ke2-b2-MNB">
+            <objects>
+                <viewController id="JMZ-tK-5Xh" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tNS-IS-0O4">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Networking - Swagger" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zWW-pQ-dYT">
+                                <rect key="frame" x="40" y="353.66666666666669" width="334" height="28.666666666666686"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Powered by" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JTt-ym-nXu">
+                                <rect key="frame" x="164.66666666666666" y="652" width="85" height="20"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RYRA Circuit" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GBa-fo-iAr">
+                                <rect key="frame" x="148" y="692" width="118" height="24"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="GBa-fo-iAr" firstAttribute="centerX" secondItem="tNS-IS-0O4" secondAttribute="centerX" id="6D6-5h-T1g"/>
+                            <constraint firstItem="JTt-ym-nXu" firstAttribute="centerX" secondItem="GBa-fo-iAr" secondAttribute="centerX" id="9Bg-PS-048"/>
+                            <constraint firstItem="E4W-v6-iky" firstAttribute="bottom" secondItem="GBa-fo-iAr" secondAttribute="bottom" constant="20" id="G12-XD-cQI"/>
+                            <constraint firstItem="GBa-fo-iAr" firstAttribute="top" secondItem="JTt-ym-nXu" secondAttribute="bottom" constant="20" id="KUd-0c-Ohq"/>
+                            <constraint firstItem="zWW-pQ-dYT" firstAttribute="leading" secondItem="E4W-v6-iky" secondAttribute="leading" constant="40" id="Mg3-tM-VOF"/>
+                            <constraint firstItem="zWW-pQ-dYT" firstAttribute="centerY" secondItem="tNS-IS-0O4" secondAttribute="centerY" id="bUa-B7-lHA"/>
+                            <constraint firstItem="zWW-pQ-dYT" firstAttribute="centerX" secondItem="tNS-IS-0O4" secondAttribute="centerX" id="mX3-rU-jH6"/>
+                            <constraint firstItem="E4W-v6-iky" firstAttribute="trailing" secondItem="zWW-pQ-dYT" secondAttribute="trailing" constant="40" id="rTo-Ez-Lhm"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="E4W-v6-iky"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8CC-Lb-Ra6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+</document>
